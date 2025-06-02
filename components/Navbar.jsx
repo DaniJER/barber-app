@@ -10,31 +10,32 @@ const Navbar = () => {
             <Link
               style={{
                 textDecoration: "none",
-                color: "black",
+                color: "#fff",
                 fontWeight: "bold",
               }}
               href="/"
             >
-              Home
+              Inicio
             </Link>
           </li>
           <li style={{ listStyle: "none" }}>
             <Link
               style={{
                 textDecoration: "none",
-                color: "black",
+                color: "#fff",
                 fontWeight: "bold",
               }}
-              href="./services-page"
+              href="./store"
             >
-              Servicios
+              Tienda
             </Link>
           </li>
+
           <li style={{ listStyle: "none" }}>
             <Link
               style={{
                 textDecoration: "none",
-                color: "black",
+                color: "#fff",
                 fontWeight: "bold",
               }}
               href="./aboutus"
@@ -42,16 +43,17 @@ const Navbar = () => {
               Nosotros
             </Link>
           </li>
+
           <li style={{ listStyle: "none" }}>
             <Link
               style={{
                 textDecoration: "none",
-                color: "black",
+                color: "#fff",
                 fontWeight: "bold",
               }}
-              href="./store"
+              href="./log-in"
             >
-              Tienda
+              Iniciar sesión
             </Link>
           </li>
         </ul>

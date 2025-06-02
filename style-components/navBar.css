@@ -1,9 +1,11 @@
 .style-navbar {
+  /* position: fixed; */
   display: flex;
   justify-content: flex-end;
   width: 100%;
   height: 100px;
-  background-color: aqua;
+  background-color: #000000;
+  z-index: 999;
 }
 
 ul {
@@ -12,7 +14,4 @@ ul {
   margin-top: 35px;
   padding-right: 30px;
   font-size: 2.9vh;
-}
-ul:hover {
-  color: blue;
 }
